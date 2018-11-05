@@ -1,0 +1,47 @@
+body {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  width: 20px;
+  position: relative;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: lightblue;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+}
+
+.puppy {
+  position: relative;
+}
+
+.lists {
+  position: absolute;
+  top: 110px;
+  left: 700px;
+}
+
+.sun {
+  position: absolute;
+  /* z-index: 1; */
+  top: 0px;
+  right: 0px;
+}
+
+img:hover {
+  opacity: 0;
+}
+
+p:hover {
+  background-color: lightblue;
+}
+
+ul:hover,
+ol:hover {
+  background-color: lightgrey;
+}
