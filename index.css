@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  margin: 0 0;
+}
+
+.footer {
+  width: 100%;
+  background-color: lightgray;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  display: flex;
+  /* position: relative; */
+}
+
+.skills ul {
+  position: relative;
+}
