@@ -18,10 +18,25 @@ body {
 }
 
 .skills {
-  display: flex;
-  /* position: relative; */
+  display: inline;
+  position: relative;
+  float: left;
+  background-color: lightblue;
+  margin: 0 20px;
 }
 
-.skills ul {
+.skills h3 {
+  margin: 0 auto;
+}
+
+img {
+  display: inline;
   position: relative;
+  float:left;
+}
+
+#sun {
+  position: absolute;
+  z-index: 1;
+  right:0;
 }
