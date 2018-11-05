@@ -1,14 +1,45 @@
+ * {
+   font-family: sans-serif;
+ }
+ img[src$=".png"] {
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   z-index: 1;
+ }
+
+img[src$=".jpg"] {
+  height: 300px;
+  width: auto;
+}
+
+div > h3 {
+  margin-block-start: 0;
+}
+
+.picskills {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  margin-left: 20px;
+}
+
 .details {
   display: block;
   margin-bottom: 150px;
 }
 
 .contact {
+  padding-inline-start: 5px;
   display: block;
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
   background-color: white;
   width: 100%;
+  border-top-left-radius: 20px;
+  border: 0.5px black solid;
 }
 
 .contact ul {
@@ -16,4 +47,5 @@
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
+  padding-inline-start: 0px;
 }
