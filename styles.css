@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  border: solid 2px lightblue;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.skills {
+  display: inline-block;
+  padding-left: 20px;
+  /* Is there a better way to do this? */
+}
+
+#sun {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
