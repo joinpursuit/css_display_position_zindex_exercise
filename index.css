@@ -1,0 +1,20 @@
+.footer{
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  background-color: #efefef;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  position: relative;
+  float: right;
+  margin-right: 200px;
+}
+.sun {
+  position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
