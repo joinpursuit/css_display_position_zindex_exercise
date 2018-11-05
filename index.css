@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: lightblue;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .puppy {
+  position: relative;
+} */
+
+.lists {
+  position: absolute;
+  top: 110px;
+  left: 700px;
+}
+
+.sun {
+  position: absolute;
+  /* z-index: 1; */
+  top: 0px;
+  right: 0px;
+}
+
+.spacing {
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
