@@ -1,0 +1,40 @@
+*{
+  width:20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer{
+  display:flex;
+  flex-direction:row;
+  position: fixed;
+  bottom: 5px;
+  height: inherit;
+  width: 100%;
+  background-color:grey;
+}
+
+
+.skills{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+
+
+.sun{
+position: absolute;
+right:0px;
+top:0px
+}
+
+:hover img{
+  display: none;
+}
+
+:hover p{
+  background-color: blue;
+}
