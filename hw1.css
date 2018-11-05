@@ -1,0 +1,54 @@
+#sunny:hover{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  z-index: 1;
+}
+.footer {
+
+  bottom: 0px;
+  width:100%;
+  background-color:grey;
+  color: black;
+  padding:20px;
+  position:fixed;
+  display: flex;
+  justify-content: space-around;
+  opacity: .4
+
+}
+
+.img:hover{
+  display: none;
+  position:relative;
+  float: left;
+
+
+}
+.colorspace{
+  background-color: #8b9dc3;
+
+
+}
+.skills{
+  display:inline;
+  float:left;
+  background-color: #dfe3ee;
+  margin: 0 20px;
+  background-color: yellow;
+  width: 20px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+.skills h3 {
+  margin: 0 0;
+}
+
+.textChange:hover{
+  background-color: yellow;
+  width: 20px;
+  display: flex;
+  justify-content: space-around;
+}

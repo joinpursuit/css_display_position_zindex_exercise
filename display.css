@@ -1,0 +1,33 @@
+.outercontainer {
+  height: 100px;
+  width: 100px;
+}
+
+span {
+  display: block;
+}
+
+.first {
+  background: blue;
+  position: relative;
+}
+
+.inner-container {
+  height: 50px;
+  width: 100px;
+  background: green;
+  position: fixed;
+  right:20px;
+   /* top: 20px;
+   position: relative; */
+}
+
+.second {
+  background: yellow;
+  /* top: 20px;
+  position: relative; */
+}
+
+.third {
+  background: red;
+}
