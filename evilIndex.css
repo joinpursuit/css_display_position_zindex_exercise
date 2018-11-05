@@ -1,0 +1,67 @@
+* {
+  font-family: sans-serif;
+  width: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+img[src$=".png"] {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+img[src$=".jpg"] {
+ height: 300px;
+ width: auto;
+ position: relative;
+ right: 0px;
+ top: 0px;
+}
+
+img:hover {
+  display: none;
+}
+
+div > h3 {
+ margin-block-start: 0;
+}
+
+.picskills {
+ display: flex;
+ flex-direction: row;
+ position: relative;
+ right: 0px;
+}
+
+.skills {
+ margin-left: 20px;
+ text-align: right;
+}
+
+.details {
+ margin-bottom: 150px;
+ position: relative;
+ right: 0px;
+ top: 0px;
+}
+
+.contact {
+ padding-inline-start: 5px;
+ display: block;
+ position: fixed;
+ bottom: 0px;
+ background-color: white;
+ width: 100%;
+ border-top-left-radius: 20px;
+ border: 0.5px black solid;
+}
+
+.contact ul {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ list-style: none;
+ padding-inline-start: 0px;
+}
