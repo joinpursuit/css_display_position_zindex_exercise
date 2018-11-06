@@ -1,0 +1,9 @@
+.footer {
+  display: inline-flex;
+  align-items:flex-end;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: lightgray;
+  opacity: 0.6;
+}
