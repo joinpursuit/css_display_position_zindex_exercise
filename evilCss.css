@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: teal;
+  width: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.footer:hover{
+  display: none;
+  background-color: blue;
+
+}
+
+img:hover {
+  display: none;
+  transform: scaleX(-1);
+}
+
+img{
+  position: relative;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+.bug{
+  position: relative;
+  display: block;
+  grid-row: 2;
+  grid-column: 1;
+  width: 20%;
+}
+.skills{
+  position: relative;
+  display: block;
+  grid-column: 2;
+  grid-row: 1;
+  width: 20%;
+}
+.skills:hover{
+  display: flex;
+  background-color: darkgreen;
+  transform: scaleY(1);
+}
+
+
+.info{
+  display: grid;
+  grid-template-columns: 10fr 20fr 10fr 10fr;
+  grid-template-rows: 10fr 10fr;
+  width: 50%;
+}
+
+.sun{
+  position: absolute;
+  /* display: none; */
+  top:0px;
+  right: 0px;
+  z-index: 1;
+}
