@@ -1,0 +1,30 @@
+body{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 200px;
+  position: relative;
+  justify-content: space-between;
+  color: lightgreen;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+h1, p, img, h2, ul, ol, a{
+  padding: 10px;
+}
+ img:hover {
+  opacity: 0;
+
+}
+
+a:hover{
+  color: green;
+  font-size: 17px;
+}
+h1:hover{
+  flex-grow: 5;
+  transition: flex-grow .3s;
+}
+p::first-letter {
+    font-size: 200%;
+    color: rgb(255, 80, 80);
+}
