@@ -3,69 +3,77 @@ body {
   grid-template-columns: repeat(10, 10%);
   grid-template-rows: repeat(20, 50px);
   padding: 10px;
+  color: brown;
+
+  width: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
 
 .upRight {
-  /* grid-column: 9 / -1;
-  grid-row: 1 / 1; */
-  /* grid-column-end: -1;
-  grid-row-start: 1; */
-  top: 0px;
-  right: 0px;
+  top: 0%;
+  right: 0%;
   position: absolute;
   z-index: 1;
-
-
 }
 
-/* .upRight > img {
-  opacity: 0.3;
-} */
-
 .intro {
-  grid-column: 1 / end;
-  grid-row: 1 / 4;
-  width: 100%;
-  /* display: flex; */
-
+  position: relative;
+  top: 10%;
+  /* bottom: */
+  left: 10%;
+  /* right: */
 }
 
 .puppy {
-  grid-column: 1 / 7;
-  grid-row: 4 / 7;
-  width: 100%;
-  max-width: 600px;
-  margin-right: 20px;
+position: relative;
+top: 100%;
+/* bottom: */
+left: 100%;
+/* right: */
+/* width: 100%; */
 }
 
-.puppy:hover {
-  display:none;
-}
 
 .skills {
-  grid-column: 7 / end;
-  grid-row-start: 4;
-  /* padding: 10px; */
-  margin-left: 20px;
-
+position: relative;
+top: 50px;
+/* bottom: */
+/* left: */
+right: 0px;
 }
 
 .theRest {
-  grid-column: 1 / end;
-  grid-row: 12 / end;
-
-  /* position: relative; */
-  /* display: block; */
-
-  /* display: flex;
-  flex-wrap: wrap; */
-
-  /* align-items: baseline; */
+position: relative;
+/* top: */
+bottom:100px;
+/* left: */
+/* right: */
 }
 
 .bottom {
-  position: fixed;
+  /* position: fixed;
   bottom: 0px;
-  display: flex;
+  display: flex; */
 
+  position: relative;
+  /* top: */
+  /* bottom: 0px; */
+  /* left: */
+  right: 0px;
+}
+
+.puppy:hover {
+  display: none;
+}
+
+.upRight:hover{
+  display: none;
+  width: 30%;
+}
+
+h1:hover, p:hover, h2:hover, h3:hover, h4:hover, li:hover {
+  background-color: lightyellow;
+  color: orange;
 }

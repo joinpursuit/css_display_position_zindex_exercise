@@ -17,3 +17,7 @@ Now, because we're evil, let's make some parts of the page as **unusable as poss
 - Some of our elements are stepping on each others' toes. Add `position: relative` to each element and give them `top`, `bottom`, `left`, and `right` properties until they're properly spaced apart.
 
 **Bonus**: See how deviously unusable you can make your site. The ugliest site that people can _describe their CSS_ for wins!
+
+
+//mine:
+https://www.w3schools.com/cssref/sel_hover.asp
