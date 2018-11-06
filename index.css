@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  background-color: purple;
+  width: 100%;
+  color: white;
+  justify-content: space-around;
+}
+
+.skills {
+  display: grid;
+  grid-column: auto;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  background-color: purple;
+  color: white;
+  justify-content: space-around;
+}
+
+.tits {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  flex-direction: row-reverse;
+}
