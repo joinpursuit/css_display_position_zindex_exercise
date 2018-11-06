@@ -1,36 +1,45 @@
+* {
+  width: 20px;
+  position: relative;
+  right: -30px;
+}
 body {
   padding-bottom: 100px;
   display: flex;
   justify-content: space-around;
-  width: 20px;
-  position: relative;
+}
+
+h1 {
+  right: -300px;
+}
+
+h2 {
+  right: 100px;
 }
 
 .footer {
-  position: fixed;
   bottom: 0px;
   width: 100%;
   background-color: lightblue;
   opacity: 0.9;
   display: flex;
   justify-content: space-around;
-}
-
-.puppy {
-  position: relative;
+  left: 500px;
 }
 
 .lists {
-  position: absolute;
   top: 110px;
-  left: 700px;
+  left: 750px;
+}
+
+.puppy {
+  left: 300px;
 }
 
 .sun {
-  position: absolute;
-  /* z-index: 1; */
+  z-index: 1;
   top: 0px;
-  right: 0px;
+  right: -370px;
 }
 
 img:hover {
