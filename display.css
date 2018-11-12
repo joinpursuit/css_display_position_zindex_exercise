@@ -1,0 +1,24 @@
+body {
+  padding-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: pink;
+  border: 1px solid darkblue;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills {
+  display: inline-block;
+  padding: 20px;
+}
+.image {
+  position: absolute;
+  z-index: 1;
+}
