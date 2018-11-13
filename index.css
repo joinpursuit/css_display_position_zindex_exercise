@@ -1,0 +1,20 @@
+.footer{
+  position: fixed;
+  bottom: 0px;
+  display: inline-flex;
+  width: 100%;
+  background-color: #444444;
+}
+
+.imgskills{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#sun{
+  z-index: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
