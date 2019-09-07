@@ -19,9 +19,9 @@
     </details>
   * Once you have all the above you may have a bug. If you scroll down over your projects you may find that your navbar may be going under the project cards. The navbar should always be on top of everything. Fix this using the `z-index`; 
 
-- Starting from `Contact Me` and continuing for the rest of the content on the page, make it so that that information is visible no matter where the user is looking. Additionally, using either Flexbox, grid, or `position: relative`, make the information display in a row, rather than a column.
+- Using position, visually arrange the Skills section lists into steps. Each one in increments of 10% from the left side; A suggestion maybe to wrap your list and corresponding header in a `div` to make this easier.
 
-- Add some [Lorem Ipsum](https://www.lipsum.com/) in `p` tags to extend the length of the page so that you can make sure it works.
+- Using either `flex` or `grid` for the `Contact Me` section make all the information appear in one line/row rather than a column. It will serve us as a footer.  Make sure your items have some space in between.
 
 - Let's make our skills list render next to our image. Using `position: relative`, `display: flex`, or grid, reposition your skills to start at the same vertical position as the first image. However, on the horizontal axis, they should be to the right with 20 pixels between them.
 - Let's shed some light on the situation. Place this [image](http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png) in the upper-right hand corner of the screen. Give it `position: absolute` so it stays there, and make sure it has a `z-index` so that nothing ever covers it.
