@@ -1,0 +1,31 @@
+#main_nav {
+  display: block; 
+  position: fixed;
+  background-color: rgb(209, 212, 11);
+  background:1px solid green;
+  padding: 2px;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.project_image{
+   width: 50%; 
+   height: 23%;
+}
+.project_card{
+  position: relative;
+  border:2px solid rgb(24, 35, 7);
+  margin: 10px;
+}
+.project_description{
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color:rgba(0,255,0,0.3);
+}
+.skills {
+
+  position: relative;
+  left:10px;
+}
