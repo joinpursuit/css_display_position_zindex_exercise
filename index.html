@@ -26,25 +26,28 @@
       <h2> Projects </h2>
     </div>
 
-    <div>
-      <img src="https://raw.githubusercontent.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment/master/images/homepage.png">
-      <h3>Twitter Login Clone</h3>
-      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment">Repo</a> | <a href="https://twitter.com">Live</a></p>
-      <hr>
+    <div class="project_card">
+      <img class="project_image" src="https://raw.githubusercontent.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment/master/images/homepage.png">
+      <div class="project_description">
+        <h3>Twitter Login Clone</h3>
+        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment">Repo</a> | <a href="https://twitter.com">Live</a></p>
+      </div>
     </div>
 
-    <div>
-      <img src="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman/raw/master/hangmanWebGif.gif">
-      <h3>CLI Hangman Game</h3>
-      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman">Repo</a> | <a href="https://google.com">Live</a></p>
-      <hr>
+    <div class="project_card">
+      <img class="project_image" src="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman/raw/master/hangmanWebGif.gif">
+      <div class="project_description">
+        <h3>CLI Hangman Game</h3>
+        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman">Repo</a> | <a href="https://google.com">Live</a></p>
+      </div>
     </div>
 
-    <div>
-      <img src="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman-Weekly-Assignment/raw/master/HangmanWebApp.gif">
-      <h3>Web Hangman Game</h3>
-      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman-Weekly-Assignment">Repo</a> | <a href="http://www.justhangman.com/">Live</a></p>
-      <hr>
+    <div class="project_card">
+      <img class="project_image" src="https://linuxhangmangame.files.wordpress.com/2016/04/hangmangame.jpg">
+      <div class="project_description">
+        <h3>Web Hangman Game</h3>
+        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman-Weekly-Assignment">Repo</a> | <a href="http://www.justhangman.com/">Live</a></p>
+      </div>
     </div>
 
     <div id="skills">
@@ -82,5 +85,15 @@
         <li> <a href="https://angellist.com">Angel list link</a> </li>
       </ul>
     </div>
+    <button id="myBtn">Back To Top</button>
+    <script>
+      //Get the button:
+    var myButton = document.getElementById("myBtn");
+    // When the user clicks on the button, scroll to the top of the document
+    myButton.addEventListener('click', () => {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    })
+    </script>
   </body>
 </html>
