@@ -1,0 +1,86 @@
+#nameOnTop {
+    text-align: center;
+}
+
+#yourNameHeader {
+    margin-top: 5%;
+}
+
+#navBar {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+.project_card {
+    border: solid 2px;
+    position: relative;
+}
+
+.project_description {
+    background-color:rgba(0,0,255,0.3);
+    color: red;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    bottom: 0;
+} 
+
+.project_image {
+    height: auto; 
+    width: 100%;
+}
+
+#languagesHeaderDiv {
+    position: relative;
+    margin-left: 20%;
+}
+
+#listOfLanguagesDiv {
+    position: relative;
+    margin-left: 20%;
+}
+
+#librariesHeaderDiv {
+    position: relative;
+    margin-left: 40%;
+}
+
+#listOfLibrariesDiv {
+    position: relative;
+    margin-left: 40%;
+}
+
+#bugsFoundHeaderDiv {
+    position: relative;
+    margin-left: 60%;
+}
+
+#listOfBugsFoundDiv {
+    position: relative;
+    margin-left: 60%;
+}
+
+#listOfContacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ulForContacts {
+    list-style-type: none;
+}
+
+#sunImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#myBtn {
+    position: fixed;
+    z-index: 11;
+    bottom: 0;
+    right: 0;
+}
