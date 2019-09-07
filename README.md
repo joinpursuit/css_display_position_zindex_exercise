@@ -1,7 +1,7 @@
 # CSS Display, Position, and Z-Index
 
 
-# 1. Add CSS to improve `index.html`
+## 1. Add CSS to improve `index.html`
 
 - Make a CSS file and import it into your HTML. Feel free to adjust your **HTML or CSS** as needed.
 - Frequently, we'd like to make our navigation bar (navbar) always visible so that we don't have to scroll all the way to the top to access the links. We can do this by using the `fixed` position value.
@@ -27,13 +27,13 @@
 
 - Let's shed some light on the situation. Place this [image](http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png) in the upper-right hand corner of the screen. Give it `position: absolute` so it stays there, and make sure it has a `z-index` so that nothing ever covers it.
 
-# 2. Add CSS to make `index.html` unusable!
+### Demo
+![styled pages demonstration](/assets/position_z-index_demo.gif)
 
-Now, because we're evil, let's make some parts of the page as **unusable as possible** (muahaha). Make a copy of your `index.html` file called `evilIndex.html`, and make a corresponding copy of your CSS:
+<object data="/assets/position_z-index.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/assets/position_z-index.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/position_z-index.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
-- `:hover` is something that you can add to your CSS selectors to change their styling when the mouse is hovering over an element. We'd like to mess with our users and make elements disappear when they mouse over the element. Add `display: none` to your `img` elements' `hover` selectors so that the images disappear when the user mouses over them.
-- Bonus: Add `hover` selectors to your different text elements that change their `background-color`.
-- You know what would maximize use of space? If our elements were _unbelievably thin_ and placed next to each other. Make the `width` of each element 20px. Then add `display: flex; justify-content: space-around` to your `body` selector. **Much better.**
-- Some of our elements are stepping on each others' toes. Add `position: relative` to each element and give them `top`, `bottom`, `left`, and `right` properties until they're properly spaced apart.
-
-**Bonus**: See how deviously unusable you can make your site.
+## 2. [Bonus] Style it better
