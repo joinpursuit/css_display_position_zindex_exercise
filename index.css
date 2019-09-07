@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 12;
+  top: 0;
+  width: 100%;
+  background-color: rgb(20,180,0,1);
+}
+
+.project_image{
+  height: 800px;
+  width: 450px;
+}
+
+.project_card{
+  border: 2px solid black;
+  position: relative;
+}
+
+.project_description{
+  background-color: rgb(180,0,0,0.5);
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#lang {
+  position: relative;
+  left: 10%
+}
+
+#libr {
+  position: relative;
+  left: 20%
+}
+
+#bugs {
+  position: relative;
+  left: 30%
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+#myBtn{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+#sun {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 11;
+}
