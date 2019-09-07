@@ -30,10 +30,6 @@
 ### Demo
 ![styled pages demonstration](/assets/position_z-index_demo.gif)
 
-<object data="/assets/position_z-index.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/assets/position_z-index.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/position_z-index.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+[Here](/assets/position_z-index.pdf) you will also find a pdf with a static image of what your page should look like. 
 
 ## 2. [Bonus] Style it better
