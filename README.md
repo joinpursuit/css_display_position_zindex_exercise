@@ -8,7 +8,7 @@
 - Observe and utilize the classes given to the HTML elements that constitute a 'project card'. Those are `project_card`, `project_description`, `project_image`.  
   * Make all the project images the same width and height keeping their 16:9 aspect ratio. 
   * Give each project a solid border of 2px
-  * Give the project description a semi-transparent background in a color of your liking;
+  * Give the project description a [semi-transparent](https://www.w3schools.com/cssref/func_rgba.asp) background in a color of your liking;
   * Change the text color to contrast nicely with your background color making your text pleasant to read. In my case this is White.
   * Utilizing `position: absolute;` for `.project_description`, lay it over you project image. You will also need to give the parent element a `position` otherwise the `position: absolute;` given to the child will be relative to the `body`. Given that you have a semi-transparent background color this will give a nice effect.
 
@@ -23,7 +23,8 @@
 
 - Using either `flex` or `grid` for the `Contact Me` section make all the information appear in one line/row rather than a column. It will serve us as a footer.  Make sure your items have some space in between.
 
-- Let's make our skills list render next to our image. Using `position: relative`, `display: flex`, or grid, reposition your skills to start at the same vertical position as the first image. However, on the horizontal axis, they should be to the right with 20 pixels between them.
+- Make the 'Back to top' button appear always visible on the bottom right corner of the window no matter where the user has scrolled to.
+
 - Let's shed some light on the situation. Place this [image](http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png) in the upper-right hand corner of the screen. Give it `position: absolute` so it stays there, and make sure it has a `z-index` so that nothing ever covers it.
 
 # 2. Add CSS to make `index.html` unusable!
