@@ -45,9 +45,11 @@ body {
 }
 
 #languages {
-    /* display: inline-block; */
+    display: inline-block;
     position: relative;
     left: 10%;
+    list-style-type: none;
+   
     
 }
 
@@ -64,11 +66,18 @@ body {
     left: 30%;
 }
 
-/* #footer {
-   
- 
-} */
+#footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
 
+#myBtn {
+   position: sticky;
+   border-radius: 5px;
+   height: 10px;
+   width: 10px
 
+}
 
 
