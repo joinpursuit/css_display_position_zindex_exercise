@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Intro</title>
     <link rel="stylesheet" href="index.css">
   </head>
@@ -13,6 +14,7 @@
         <a href="#skills"> Skills </a>
         <a href="#contact"> Contact </a>
         <a href="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/109481925/original/9445cfaef2c93a02bbce3af7d0f16d065c23d254/update-your-resume-asap.jpg"> Resume </a>
+        <span id="date"></p>
     </nav>
 
     <div id="about">
@@ -109,6 +111,10 @@
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     })
+
+    var todayDate = document.querySelector("#date");
+    var now = new Date();
+    todayDate.innerText = `${now.getMonth()}/${now.getDate()}/${now.getFullYear()}`
     </script>
   </body>
 </html>
