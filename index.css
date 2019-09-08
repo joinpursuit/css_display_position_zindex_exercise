@@ -1,0 +1,90 @@
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    margin: 0 0 15px 0;
+    font-size: 1.1em;
+    padding: 10px;
+    background: rgba(0,0,0, .7);
+}
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: magenta;
+}
+.project_image {
+    width: 80%;
+    border: 1px solid black;
+}
+.project_card {
+    position: relative; 
+    width: 80%;
+}
+.project_description {
+    background-color: rgba(200, 20, 0, .4);
+    color: rgb(0,50,200);
+    position: absolute;
+    top: 0;
+    right: 20%;
+}
+#skills {
+    position: relative;
+}
+#one {
+    position: relative;
+    left: 10%;
+}
+#two {
+    position: relative;
+    left: 20%;
+}
+#three {
+    position: relative;
+    left: 30%;
+}
+#contact ul {
+    display: flex;
+    justify-content: space-between;
+}
+#contact li {
+    list-style: none;
+}
+#sun {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+body, html {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: rgb(11,32,56);
+    color: white;
+}
+li, a {
+    color: whitesmoke;
+}
+#one, #two, #three {
+    width: max-content;
+}
+#myBtn {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    position: sticky;
+    left: 50%;    
+    bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rebeccapurple;
+    background: black;
+    font-size: 1em;
+}
+h1 {
+    font-size: 4.5em;
+    text-align: center;
+}
+h2 {
+    font-size: 3em;
+    text-align: center;
+}

@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CSS Intro</title>
-    <link rel="stylesheet" href="./index.css">
-  </head>
-  <body>
-    <nav >
-        <a href="#about"> About </a>
-        <a href="#projects"> Projects </a>
-        <a href="#skills"> Skills </a>
-        <a href="#contact"> Contact </a>
-        <a href="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/109481925/original/9445cfaef2c93a02bbce3af7d0f16d065c23d254/update-your-resume-asap.jpg"> Resume </a>
-    </nav>
 
-    <div id="about">
-      <h1>Your Name Here</h1>
-        <img src="https://image.flaticon.com/icons/png/512/97/97895.png" alt="" >
-        <p>This is a bunch of information about myself. I'm from here and there and discovered my
-        love of programming when this happend. When I'm not working I'm busy doing this and that.
-      </p>
-   </div>
+<head>
+  <meta charset="utf-8">
+  <title>CSS Intro</title>
+  <link rel="stylesheet" href="index.css">
+</head>
 
-    <div id="projects">
-      <h2> Projects </h2>
+<body>
+  <nav>
+    <a href="#about"> About </a>
+    <a href="#projects"> Projects </a>
+    <a href="#skills"> Skills </a>
+    <a href="#contact"> Contact </a>
+    <a
+      href="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/109481925/original/9445cfaef2c93a02bbce3af7d0f16d065c23d254/update-your-resume-asap.jpg">
+      Resume </a>
+  </nav>
+  <img id="sun" src="assets/Playtime_Sun-4.png" alt="Sun">
+  <div id="about">
+    <h1>Drake</h1>
+    <img src="assets/drake.png" alt="Drake Meme">
+    <p>This is a bunch of information about myself. I'm from here and there and discovered my
+      love of programming when this happend. When I'm not working I'm busy doing this and that.
+    </p>
+  </div>
+
+  <div id="projects">
+    <h2> Projects </h2>
+  </div>
+
+  <div class="project_card">
+    <img class="project_image"
+      src="https://raw.githubusercontent.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment/master/images/homepage.png">
+    <div class="project_description">
+      <h3>Twitter Login Clone</h3>
+      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment">Repo</a> | <a
+          href="https://twitter.com">Live</a></p>
     </div>
+  </div>
 
-    <div class="project_card">
-      <img class="project_image" src="https://raw.githubusercontent.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment/master/images/homepage.png">
-      <div class="project_description">
-        <h3>Twitter Login Clone</h3>
-        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Twitter-CSS-Assignment">Repo</a> | <a href="https://twitter.com">Live</a></p>
-      </div>
+  <div class="project_card">
+    <img class="project_image"
+      src="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman/raw/master/hangmanWebGif.gif">
+    <div class="project_description">
+      <h3>CLI Hangman Game</h3>
+      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman">Repo</a> | <a
+          href="https://google.com">Live</a></p>
     </div>
+  </div>
 
-    <div class="project_card">
-      <img class="project_image" src="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman/raw/master/hangmanWebGif.gif">
-      <div class="project_description">
-        <h3>CLI Hangman Game</h3>
-        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman">Repo</a> | <a href="https://google.com">Live</a></p>
-      </div>
+  <div class="project_card">
+    <img class="project_image" src="https://linuxhangmangame.files.wordpress.com/2016/04/hangmangame.jpg">
+    <div class="project_description">
+      <h3>Web Hangman Game</h3>
+      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman-Weekly-Assignment">Repo</a> | <a
+          href="http://www.justhangman.com/">Live</a></p>
     </div>
+  </div>
 
-    <div class="project_card">
-      <img class="project_image" src="https://linuxhangmangame.files.wordpress.com/2016/04/hangmangame.jpg">
-      <div class="project_description">
-        <h3>Web Hangman Game</h3>
-        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Hangman-Weekly-Assignment">Repo</a> | <a href="http://www.justhangman.com/">Live</a></p>
-      </div>
-    </div>
-
-    <div id="skills">
-      <h2>My Skills!</h2>
+  <div id="skills">
+    <h2>My Skills!</h2>
+    <div id="one">
       <h3>Languages</h3>
       <ul>
         <li>JavaScript</li>
@@ -59,7 +69,9 @@
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
+    </div>
 
+    <div id="two">
       <h3>Libraries</h3>
       <ol>
         <li>React</li>
@@ -68,32 +80,37 @@
         <li>Bootstrap</li>
 
       </ol>
+    </div>
 
+    <div id="three">
       <h3> Bugs Found</h3>
       <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
       <p>I came up with a totally sick solution though by doing ... </p>
     </div>
 
+  </div>
 
-    <div id="contact">
-      <h2>Contact Me</h2>
-      <ul>
-        <li> Email me at: <a href="mailto:yourname@pursuit.org" >yourname@pursuit.org</a></li>
-        <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
-        <li> <a href="https://github.com">github link</a> </li>
-        <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
-        <li> <a href="https://angellist.com">Angel list link</a> </li>
-      </ul>
-    </div>
-    <button id="myBtn">Back To Top</button>
-    <script>
-      //Get the button:
+
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li> Email me at: <a href="mailto:yourname@pursuit.org">yourname@pursuit.org</a></li>
+      <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
+      <li> <a href="https://github.com">github link</a> </li>
+      <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
+      <li> <a href="https://angellist.com">Angel list link</a> </li>
+    </ul>
+  </div>
+  <button id="myBtn">Back To Top</button>
+  <script>
+    //Get the button:
     var myButton = document.getElementById("myBtn");
     // When the user clicks on the button, scroll to the top of the document
     myButton.addEventListener('click', () => {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     })
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
