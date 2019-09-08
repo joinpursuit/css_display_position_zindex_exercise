@@ -1,0 +1,115 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-right: 1px solid yellowgreen;
+    background-color: yellowgreen;
+    z-index: 2;
+}
+
+#navbar:last-child {
+    border-right: none;
+
+}
+
+navbar a:hover {
+    background-color: yellow;
+}
+
+/* navbar a {
+    color: purple; 
+} */
+
+/* .project_card {
+    max-width: 100px;
+} */
+
+.project_image {
+    position: relative;
+    /* padding-top: 56.25%; */
+    width: 480px;
+    height: 270px;
+}
+
+/* 
+.project_image {
+    border: 2px solid;
+
+} */
+
+.project_card {
+    border: 2px solid;
+    position: relative;
+}
+
+.project_description {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(0, 255, 0, 0.3);
+    color: lightpink;
+
+}
+
+.my-skills {
+    position: relative;
+    left: 0;
+}
+
+.languages {
+    position: relative;
+    bottom: 10%;
+    left: 140px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.libraries {
+    position: relative;
+    bottom: 20%;
+    left: 350px;
+}
+
+.bugs-found {
+    position: relative;
+    bottom: 30%;
+    left: 750px;
+}
+
+.contact-me {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contact-me .list {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.contact-me .list li {
+    padding: 0 15px;
+}
+
+
+#myBtn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+body {
+    background: url(http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    z-index: 1;
+}
