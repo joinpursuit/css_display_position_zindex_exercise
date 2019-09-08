@@ -1,0 +1,95 @@
+
+nav{
+  position: fixed;
+  background-color: #c9de13;
+  display: grid;
+  grid-template-columns: 40px 51px 36px 50px 0px;
+  width: 100%;
+  z-index: 3;
+  top:0;
+  height: 33px;
+  align-content: center;
+  left: 0;
+
+}
+
+h1{
+
+  position: absolute;
+}
+
+#about > img{
+    padding-top: 71px;
+  }
+
+
+
+
+
+.project_image{
+  width: 100%;
+
+}
+
+.project_card{
+  position: relative;
+  border: 2px solid;
+  width: 64%;
+  margin-bottom: 20px;
+}
+
+ .project_description{
+  background-color: rgba(0,191,255.76,.5);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  bottom: -1px;
+}
+
+h3{
+  color: black;
+
+}
+#languages_lists{
+  position: relative;
+  left: 10%;
+
+}
+
+
+#libraries_lists {
+  position: relative;
+  left: 20%;
+
+}
+
+
+#bugs_found_list{
+  position: relative;
+  left: 30%;
+}
+
+#contact ul li{
+  list-style: none;
+  /* position: absolute;
+  display: grid;
+  grid-template-columns:repeat(5, auto);
+  align-content: center;
+  justify-content: center; */
+
+  }
+
+
+
+
+#myBtn{
+  position: fixed;
+  bottom: 0;
+}
+
+
+#sun_photo{
+  position: absolute;
+  z-index: 2;
+  right: 0;
+}
