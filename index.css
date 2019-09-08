@@ -1,0 +1,36 @@
+html, body {
+    height: 99%;
+    width: 99%;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.project_card {
+    border: solid 2px ;
+    position: relative;
+}
+
+.project_image {
+    background-color: lightyellow;
+    height: 360px;
+    width: 640px;
+    position: relative;
+}
+
+.project_description {
+    background-color:rgba(0, 234, 255, 0.3);
+    color: blueviolet;
+}
+
+.contact_info {
+    display: flex;
+    justify-content:space-between;
+    padding-inline-start: 0;
+}
+
+#contact ul li {
+    list-style-type: none;
+}
