@@ -73,7 +73,9 @@ nav {
 }
 
 #myBtn {
-    position: sticky;
+    display: flex;
+    position: fixed;
+    justify-content: right;
     right: 0;
     bottom: 0;
 }
