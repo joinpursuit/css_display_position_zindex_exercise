@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: navy;
+    z-index: 3;
+
+}
+
+.project_image{
+    width: 720px;
+    height: 480px;
+    
+}
+
+.project_description{
+    position: absolute;
+    background-color: rgba(36, 46, 120, 0.824);
+    width:inherit;
+    bottom: 0;
+    
+}
+
+.project_card{
+    position: relative;
+    width: 720px;
+    border: 2px solid black;
+}
+
+ .steps{
+    display: block;
+    position: relative;
+    
+}
+
+#skills{
+    position: relative;
+    left: 50px;
+}
+
+#mySkills{
+    position: relative;
+    left: 100px;
+}
+
+#Libraries{
+    position: relative;
+    left: 400px;
+}
+
+#bugs{
+    position: relative;
+    left: 700px;
+}
+
+#contact{
+    display: grid;
+    grid-template-rows: 1fr;
+}
