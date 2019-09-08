@@ -1,0 +1,87 @@
+.navbar {
+    display:flex;
+    grid-column: 1;
+    position: fixed;
+    background-color: #3e1055;
+    z-index: 2;
+    padding: 10px;
+    align-self: center;
+}
+
+.navbar a {
+    display: inline-block;
+
+    margin: 0px 50px;
+}
+
+h1 {
+    padding-top: 40px;
+}
+
+.project_card {
+    position:relative;
+    margin: 10px;
+}
+
+.project_image {
+    height: 250px;
+    border: 2px solid #000000;
+}
+
+.project_description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #3e1055ad;
+    padding: 10px;
+}
+
+.project_card h3, a {
+    color: white;
+}
+
+#skills {
+    position: relative;
+    margin-top: 0;
+}
+
+.lang {
+    position: relative;
+    left: 10%;
+}
+
+.lib {
+    position: relative;
+    left: 25%;
+}
+
+.bug {
+    position: relative;
+    left: 40%;
+}
+
+#contact {
+    grid-column: 1;
+    position: relative;
+    bottom: 0;
+    background-color: #3e1055ad;
+}
+
+#contact ul {
+    text-align: center;
+}
+
+#contact ul li {
+    display: inline-block;
+    margin: 0 50px;
+    justify-content: space-between;
+}
+
+
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+
+}
