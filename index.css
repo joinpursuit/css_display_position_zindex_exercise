@@ -9,23 +9,65 @@
   z-index: 1;
 }
 
+body{
+  position: absolute;
+}
+
 .project_image{
    width: 50%; 
    height: 23%;
 }
 .project_card{
   position: relative;
-  border:2px solid rgb(24, 35, 7);
+  border:2px solid;
   margin: 10px;
 }
 .project_description{
-  position: absolute;
-  bottom: 0%;
-  width: 100%;
-  background-color:rgba(0,255,0,0.3);
-}
-.skills {
-
   position: relative;
-  left:10px;
+  color: black;
+  text-decoration-color: rgb(16, 3, 66);
+  bottom: 0%;
+  width: 50%;
+  height:91px;
+  background-color:rgba(0,0,255,0.3);
+  top:-135px;
+}
+
+#language {
+  position: relative;
+  left:10%;
+}
+   
+#libraries{
+  position: relative;
+  left:20%
+}
+
+#bugs{
+  position: relative;
+  left: 30%;
+}
+
+#contact{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#image{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#myBtn {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  position: sticky;
+  bottom: 0px;
+  left: 1084px;
+  color: rgb(8, 8, 8);
+  background: transparent;
+
 }
