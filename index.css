@@ -69,7 +69,9 @@ nav {
 }
 
 #myBtn {
-    position: sticky;
+    display: flex;
+    bottom: right;
+    position: fixed;
     bottom: 0;
     right: 0;
 }
