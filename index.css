@@ -1,0 +1,86 @@
+html, body {
+    width: 99%;
+    height: 99%;
+}
+
+nav {
+    display: relative;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    background: yellow;
+    z-index: 10;
+}
+
+#about {
+    position: relative;
+    top: 20px;
+}
+
+.project_image {
+    width: 960px;
+    height: 540px;
+}
+
+.project_card {
+    position: relative;
+    border: 2px solid black;
+}
+
+.project_description {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgba(140, 0, 255, 0.5);
+    color: yellow;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+}
+
+#block1 {
+    position: relative;
+    left: 10%;
+}
+
+#block2 {
+    position: relative;
+    grid-row: 2;
+    grid-column: 2
+}
+
+#block3 {
+    display: inline;
+    position: relative;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#contact-list {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 0px;
+}
+
+.listyMcListface {
+    list-style-type: none;
+}
+
+#myBtn {
+    position: sticky;
+    right: 0;
+    bottom: 0;
+}
+
+#sun {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 9;
+}
