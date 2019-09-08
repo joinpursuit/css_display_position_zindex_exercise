@@ -1,0 +1,66 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+}
+nav {
+    height: 20px;
+    position: fixed;
+    top: 0;
+    background-color:lightsalmon;
+    width:100%;
+    z-index: 5;
+}
+.project_card {
+    display:block;
+    position: relative;
+    bottom: 20px;
+}
+.project_image {
+    border: 2px solid;
+    width: 1000px;
+    height: 600px;  
+    position: relative; 
+}
+
+.project_description {
+    background: rgba(255,160,122,0.5);
+    color: darkblue;
+    position: absolute;
+    bottom:0;
+    width:69.7%
+}
+
+#contact ul {
+    display:flex;
+    flex-flow: row;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.languages {
+    display: block;
+    position: relative;
+    left: 10em;
+}
+
+.libraries {
+    display: block;
+    position: relative;
+    left: 30em;
+}
+
+.bugs {
+    display: block;
+    position: relative;
+    left: 55em;
+}
+
+button {
+    position: fixed;
+    bottom: 0;
+}
+
+.cornersun {
+    position: absolute;
+    right: 20px;
+}
