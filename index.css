@@ -1,0 +1,98 @@
+html, body{
+    height:100%;
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    background-color: rgb(234, 230, 252);
+    width: -webkit-fill-available;
+    /* padding: 5px; */
+    justify-content: space-evenly;
+}
+.main{
+    height: 90%;
+    display: flex;
+}
+.project_image{
+    display:block;
+    width: 640px;
+    height: 360px;
+}
+.project_card {
+    position: relative;
+    width: 720px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+  }
+  .project_description {
+    position: absolute;
+    bottom: 0; 
+    background-color: rgba(234, 230, 252, 0.5);
+    width: inherit;
+    color: white;
+  }  
+#footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+}
+#footer > ul, #footer > li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+} 
+#myBtn{
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+/*body{
+    height: 100%;
+ }
+.main{
+    height: 90%;
+    display: flex;
+}
+.footer{ 
+    display: flex;
+    flex-wrap: wrap;
+    height: 10%;
+    
+}
+#footer > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+} 
+#myBtn{
+    position: fixed; 
+    bottom: 0;
+    right: 0;
+}
+.project_image{
+    display:block;
+    width: 640px;
+    height: 360px;
+} */
+/* .project_description {
+    display: block;
+    position: absolute;
+    background-color:rgba(50, 50, 50, .5);
+    width: inherit;
+ } */
+
+
+ 
