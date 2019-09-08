@@ -1,0 +1,61 @@
+nav {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.project_image {
+	height: 100%;
+	width: 80%	;
+}
+
+.project_card {
+	border: solid 2px black;
+	position: relative;
+	width: 640px;
+	height: 360px;
+}
+
+.project_description{
+	background-color: rgba(0,0,0,0.3);
+	color: whitesmoke;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.skills-tree-10{
+	position: relative;
+	left: 10%;
+}
+
+.skills-tree-20{
+	position: relative;
+	left: 20%;
+}
+
+.skills-tree-30{
+	position: relative;
+	left: 30%;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+#myBtn{
+	position: fixed;
+	bottom:0;
+	right: 0;
+}
+
+.sunny-sun-sun{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 9001;
+}
+
+
+
