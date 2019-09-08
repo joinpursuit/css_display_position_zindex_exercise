@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
-    <nav >
-        <a href="#about"> About </a>
-        <a href="#projects"> Projects </a>
-        <a href="#skills"> Skills </a>
-        <a href="#contact"> Contact </a>
+    <nav  class="nav-bar">
+        <a id="about" href="#about"> About</a>
+        <a id="projects"  href="#projects"> Projects </a>
+        <a id="skills"  href="#skills"> Skills </a>
+        <a id="Contact" href="#contact"> Contact </a>
         <a href="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/109481925/original/9445cfaef2c93a02bbce3af7d0f16d065c23d254/update-your-resume-asap.jpg"> Resume </a>
     </nav>
+    
 
     <div id="about">
       <h1>Your Name Here</h1>
@@ -50,41 +51,47 @@
       </div>
     </div>
 
-    <div id="skills">
+    <div class="skills">
       <h2>My Skills!</h2>
-      <h3>Languages</h3>
-      <ul>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+      <div id="languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>SQL</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
       </ul>
+      </div>
+      <div id="libraries">
+        <h3>Libraries</h3>
+        <ol>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Node</li>
+          <li>Bootstrap</li>
 
-      <h3>Libraries</h3>
-      <ol>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
-
-      </ol>
-
-      <h3> Bugs Found</h3>
-      <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
-      <p>I came up with a totally sick solution though by doing ... </p>
+        </ol>
+      </div> 
+      <div id="bugs"> 
+        <h3> Bugs Found</h3>
+        <p>My hardest bug I ever came across was this infinite loop I couldn't escape. </p>
+        <p>I came up with a totally sick solution though by doing ... </p>
+     </div>
     </div>
 
 
     <div id="contact">
-      <h2>Contact Me</h2>
-      <ul>
-        <li> Email me at: <a href="mailto:yourname@pursuit.org" >yourname@pursuit.org</a></li>
-        <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
-        <li> <a href="https://github.com">github link</a> </li>
-        <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
-        <li> <a href="https://angellist.com">Angel list link</a> </li>
-      </ul>
-    </div>
+       <h2>Contact Me</h2>
+      <div id="footer">
+       <ul>
+          <li> Email me at: <a href="mailto:yourname@pursuit.org" >yourname@pursuit.org</a></li>
+          <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
+          <li> <a href="https://github.com">github link</a> </li>
+          <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
+          <li> <a href="https://angellist.com">Angel list link</a> </li>
+       </ul>
+     </div>
+   </div>
     <button id="myBtn">Back To Top</button>
     <script>
       //Get the button:
