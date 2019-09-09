@@ -1,15 +1,32 @@
-html, body{
+ body{
     height:100%;
+    width:100%;
     margin: 0;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+#sun{
+    position: absolute;
+    top:0;
+    right:0;
+    /* right:-10px;
+    top: -10px; */
+    z-index:2;
 }
 
 nav{
     position: fixed;
     top:0;
-    background-color: rgb(234, 230, 252);
-    width: -webkit-fill-available;
-    /* padding: 5px; */
-    justify-content: space-evenly;
+    background-color: rgba(191, 177, 252, 0.836);
+    width: inherit;
+    /* width:100vw; */
+    /* width: -webkit-fill-available; */
+   z-index:1;
+}
+nav a{
+    /* color:gold; */
+    font-weight: bold;
+    margin-left: 30px;
 }
 .main{
     height: 90%;
@@ -17,37 +34,64 @@ nav{
 }
 .project_image{
     display:block;
-    width: 640px;
+    width: 640px; 
     height: 360px;
 }
 .project_card {
     position: relative;
-    width: 720px;
+    width: 640px;
     margin-bottom: 15px;
-    border: 2px solid black;
+    border: 2px solid gold;
   }
   .project_description {
     position: absolute;
     bottom: 0; 
-    background-color: rgba(234, 230, 252, 0.5);
+    background-color: rgba(182, 167, 247, 0.8);
     width: inherit;
     color: white;
   }  
+  .project_description a{
+      color: white;
+  }
+  #language{
+      display:block;
+    position: relative;
+    left:10%;
+  }
+  #library{
+    position: relative;
+    left:20%;
+  }
+  #bug{
+    position: relative;
+    left:30%;
+  }
 #footer{ 
     display: flex;
     flex-wrap: wrap;
     height: 10%;
 }
-#footer > ul, #footer > li {
+#footer > ul {
     display: flex;
     align-items: center;
     list-style: none;
     justify-content: space-evenly;
 } 
+#footer li { 
+    display: inline-block;
+    margin-left: 30px;
+}
+
 #myBtn{
     position: fixed; 
     bottom: 0;
     right: 0;
+    color: rgba(191, 177, 252, 0.836);
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 50px;
+
 }
 
 
