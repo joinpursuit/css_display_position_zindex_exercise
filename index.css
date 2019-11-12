@@ -1,0 +1,116 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   width: 100%
+}
+nav {
+   width: 100%;
+   height: 25px;
+   position: fixed;
+   top: 0;
+   background-color: lightgoldenrodyellow;
+   padding: 10px 0;
+   z-index: 2;
+   float: left;
+}
+nav a, nav span {
+   padding: 0 7px;
+}
+.project_card {
+   width: 70%;
+   padding: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   border: solid black 2px;
+   margin-bottom: 10px;
+   position: relative;
+}
+.project_image {
+   width: 100%;
+}
+.project_description {
+   background-color:rgba(96, 199, 233, 0.726);
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+}
+.sub_description {
+   padding: 0 10px;
+}
+#skills {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   background-color: rgb(37, 85, 189);
+   border-radius: 20px;
+   padding: 10px 5px;
+}
+#lang {
+   position: relative;
+   left: 10%;
+   width: 90%;
+}
+#lib {
+   position: relative;
+   left: 20%;
+   width: 80%;
+   padding-left: 0;
+   padding-right: 0;
+}
+#bug {
+   position: relative;
+   left: 30%;
+   width: 70%;
+}
+#skills li, #skills p {
+   font-size: large;
+}
+#contact {
+   display: flex;
+   flex-direction: column;
+}
+#contact h2 {
+   margin-bottom: 2px; 
+}
+#contact ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   margin-top: 0;
+}
+#contact li {
+   padding: 0;
+}
+#myBtn {
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   width: 50px;
+   height: 50px;
+   background-color: aquamarine;
+   border-radius: 50%;
+}
+#sun {
+   width: 150px;
+   position: absolute;
+   top: 35px;
+   right: -3px;
+   z-index: -1;
+}
+#about {
+   margin-top: 50px;
+   text-align: center;
+}
+#projects {
+   text-align: center;
+}
+#about img {
+   width: 130px;
+}
+#date {
+
+   float: right;
+}
