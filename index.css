@@ -1,14 +1,67 @@
 nav {
+    background: yellow;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    z-index: 1;
 }
 
 .project_image {
-    width: 500px;
-    height: 450px;
+    width: 70%;
     border: solid 2px;
 }
 
+
 .project_description {
     background-color: rgba(255, 0 , 0, 0.3);
-    color: lightslategrey;
+    color: whitesmoke;
+    position: absolute;
+    width: 70%;
+    bottom: 5px;
+    left: 2px;
+}
+
+.project_card {
+    position: relative;
+}
+
+#skills {
+    left: 10%;
+    position: relative;    
+    top: 0;
+    left: 0;    
+}
+
+#languages {
+  left: 15%;
+  position: relative;  
+}
+
+#libraries {
+ left: 40%;
+ position: relative;
+}
+
+#bugs {
+    left: 65%;
+    position: relative;
+}
+
+#contact {
+    display: flex;
+}
+
+#myBtn {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#sun{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
 }
