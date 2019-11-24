@@ -7,7 +7,7 @@ img{
 nav{
     position: fixed;
     background:rgba(176, 178, 184, .80) ;
-    width: 100%;
+    width: 100%; 
     z-index: 1;
 }
 .project_card{
