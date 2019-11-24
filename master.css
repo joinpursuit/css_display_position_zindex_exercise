@@ -1,0 +1,41 @@
+img{
+  /* padding-top: 56.25%; */
+ height: 400px;
+ width: 400px;
+ z-index: -1;
+}
+nav{
+    position: fixed;
+    background:rgba(176, 178, 184, .80) ;
+    width: 100%;
+    z-index: 1;
+}
+.project_card{
+   position: relative;
+    border-style: solid;
+    border-color:black ;
+    border-width: 2px;
+    
+}
+.project_description{
+    position: absolute; 
+    background-color: rgba(0,51,204,.5) ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+#contact ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+   
+}
+#myBtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+}
