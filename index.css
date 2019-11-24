@@ -45,4 +45,14 @@ body {
       flex-direction: row;
       justify-content: space-between;
   }
-  
+  #myBtn {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+  }
+  #reya{
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 15
+  }
