@@ -1,0 +1,20 @@
+nav {
+    position: fixed;
+    background: black;
+}
+.project.image {
+    width: 700px;
+    height: 393.75px;
+    border:1px solid red;
+}
+.project.description {
+    border: 2px solid black;
+}
+/* .project.description {
+background-color: rgba(255,0,0,0.5);
+color: aliceblue;
+position: absolute;
+} 
+.project.image{
+    position: relative;
+} */
