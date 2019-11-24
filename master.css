@@ -1,5 +1,8 @@
 nav {
     position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gray;
 }
 
 .project_card {
@@ -7,18 +10,18 @@ nav {
 }
 
 .project_image {
+    display: block;
     width: fixed;
     height: auto;
-    position: static;
 }
 
 .project_description {
     background-color:rgba(192,192,192,0.3);
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+    top: 2;
+    bottom: 2;
+    left: 2;
+    right: 2;
 
 }
 
