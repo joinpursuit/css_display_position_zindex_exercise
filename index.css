@@ -1,0 +1,55 @@
+nav {
+    position: fixed;
+    z-index: 1;
+}
+.project_image {
+    width: 600px ;
+    height: 400px;
+}
+.project_image, .project_card, .project_description {
+    border: 2px solid black;
+    
+}
+.project_description {
+    background-color: rgba(0, 255, 0,0.2);
+    color: navy;
+    position: absolute ;
+    bottom: 0px;
+    width: 600px;
+    
+}
+.project_card {
+    position: relative;
+    /* width: 600px; */
+    
+}
+#languages {
+    position: relative;
+    left: 10%;
+}
+#libraries {
+    position: relative;
+    left: 30%;
+}
+#bugs {
+    position: relative;
+    left: 50%
+}
+#uls {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content:space-evenly;
+    list-style:none;
+}
+#myBtn {
+    position: fixed;
+    bottom: 50px;
+    right: 0px
+}
+#image {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    top: 30px
+}
+
