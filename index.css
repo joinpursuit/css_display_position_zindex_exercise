@@ -1,0 +1,70 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: yellow;
+    z-index: 2;
+    width: 100%
+}
+
+.project_image{
+    width: 600px;
+    height: auto;
+    /* position: relative; */
+}
+.project_card{
+    border-color: brown;
+    border-style: solid;
+    position: relative;
+}
+
+.project_description{
+    background-color: 	rgba(80, 78, 100,0.35);
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+
+#skills { 
+    display: grid;
+    position: relative;
+}
+
+#list1{
+    position: relative;
+    left: 10%;
+}
+#list2{
+    position: relative;
+    left: 20%;
+}
+#list3{
+    position: relative;
+    left: 30%;
+}
+
+#contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.sunny{
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: auto;
+    z-index: 2;
+    position: absolute
+}
+
