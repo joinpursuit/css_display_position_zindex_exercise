@@ -52,3 +52,18 @@ nav{
     grid-gap: 0px; */
      /* flex-direction: row; */
     }
+
+#myBtn{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+#sun {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* z-index: 3; */
+}
+
