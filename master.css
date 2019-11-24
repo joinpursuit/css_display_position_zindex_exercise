@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+}
+
+.project_card {
+    border: solid black;
+}
+
+.project_image {
+    width: fixed;
+    height: auto;
+    position: static;
+}
+
+.project_description {
+    background-color:rgba(192,192,192,0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+h3 {
+    color: black;
+}
