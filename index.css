@@ -33,4 +33,20 @@ nav {
     left: 4px;
 }
 
+#skills {
+    position: relative;
+}
+ #lang {
+     position: relative;
+     left: 20%;
+ }
+ #lib {
+     position: relative;
+     left: 40%;
+ }
+ #bug {
+     position: relative;
+     left: 60%;
+ }
+
 
