@@ -12,13 +12,13 @@ nav {
     width: 100%;
 }
 .project_card {
-    border: solid 2px;
     position: relative;
 }
 
 .project_image {
     width: 600px;
     height: 300px;
+    border: 2px;
     border-style: solid;
     position: relative;
 }
@@ -29,8 +29,8 @@ nav {
     bottom: 5px;
     position: absolute;
     z-index: 1;
-    width: 48%;
-    left: 4px;
+    width: 47.5%;
+    left: 2px;
 }
 
 #skills {
@@ -49,4 +49,16 @@ nav {
      left: 60%;
  }
 
+ #contact ul{
+     display: flex;
+     flex: wrap;
+     justify-content: space-evenly;
+ }
+
+/* #img {
+    position: absolute ;
+    top: 0;
+    right: 0;
+    z-index: 9;
+} */
 
