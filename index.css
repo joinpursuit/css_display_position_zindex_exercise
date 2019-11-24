@@ -1,10 +1,12 @@
 nav{
     position: fixed;
+    z-index: 1;
 }
 
 .project-image{
     width: 320px;
     height: 180px
+    
 }
 
 /* #projects{
@@ -12,19 +14,41 @@ nav{
 
 
 .project{
-    border:2px solid purple;
-    background:yellow;
+    border:1px solid purple;
+    background:white;
+}
+
+.project-card{
+    position: relative;
 }
 
 .project-description{
     background-color:rgba(255,0,0,0.3);
+    color: whitesmoke;
     position: absolute;
-    /* position: fixed; */
-    /* position: relative; */
-    /* position: static; */
+    top: 100px; left: 0px;
 }
 
-body{
+/* body{
     color:blueviolet
-}
+} */
 
+
+#sk1{
+    margin-left: 10%;
+}
+#sk2{
+    margin-left: 20%;
+}
+#sk3{
+    margin-left: 30%;
+} 
+
+#contact ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-rows: 1;
+    grid-template-columns: 5;
+    grid-gap: 0px; */
+     /* flex-direction: row; */
+    }
