@@ -1,0 +1,72 @@
+nav {
+    background: yellow; 
+    position: fixed;
+    padding: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* display: flex; */
+}
+
+#about {
+    display: ;
+}
+
+.project_image {
+    width: 640px;
+    height: 360px;
+}
+
+.project_card {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    position:relative
+
+}   
+
+.project_description{
+    background: rgba(255,0,0,0.3);  
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right:0;
+
+}   
+
+#languages{
+    position: relative;
+    left: 10%; 
+}
+
+#libraries{
+     position: relative;
+    left: 20%;
+}
+
+#bugs{
+    position: relative;
+    left: 30%;
+}
+
+#list {
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+#myBtn {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#image {
+    display: flex;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 2;
+}
