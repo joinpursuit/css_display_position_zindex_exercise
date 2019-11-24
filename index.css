@@ -28,3 +28,21 @@ body {
     left: 0;
     right: 0;
   }
+  #skills {
+      position: relative;
+      left: 10%;
+  }
+  #lib {
+      position: relative;
+      left: 20%;
+  }
+  #bugs {
+      position: relative;
+      left: 30%;
+  }
+  #mess {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  
