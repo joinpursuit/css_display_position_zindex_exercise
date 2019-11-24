@@ -17,12 +17,22 @@ nav {
     color: purple;
     position: absolute;
 }
+#skills {
+    position: relative;
+    top: 30px
+}
 
 #language {
     position: relative;
-    Left: 10%;
+    left: 10%;
 }
 #libraries {
-        position: relative;
-        Left: 20%;
+    position: relative;
+    left: 20%;
 }
+#bugs {
+    position: relative;
+    left: 30%;
+}
+
+
