@@ -1,3 +1,14 @@
+
+body {
+background-color: rgb(109, 183, 248);
+background-repeat: no-repeat,
+    no-repeat,
+    no-repeat;
+background-position: bottom right,
+    left,
+    right;
+}
+
 nav {
     position: fixed;
     background: white;
@@ -34,6 +45,17 @@ nav {
     position: relative;
     left: 30%;
 }
+#footer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    margin-top: 60px;
+    z-index: 800px;
+    padding: 0 10px 4px 10px;
+    grid-template-columns: 160px auto 100px;
+    background-color: lightgreen;
+  }
 #image{
     position: absolute;
     right: 0;
