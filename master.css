@@ -3,15 +3,39 @@ nav {
     top: 0;
     left: 0;
     background-color: gray;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.container {
+    padding-top: 85px;
+}
+.avatar {
+    width: 30%;
+
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+}
+
+.projectsCardRow {
+    display: flex;
+    flex-direction: column;
+}
 .project_card {
     border: solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
 }
 
 .project_image {
     display: block;
-    width: fixed;
+    width: 50%;
     height: auto;
 }
 
