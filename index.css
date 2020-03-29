@@ -1,3 +1,92 @@
 nav {
     position: fixed;
+    z-index: 2;
+}
+
+.project_image {
+    width: 500px;
+    height: 281.25px;
+}
+
+.project_card {
+    border-style: solid;
+}
+
+.project_description {
+    background-color:rgba(0,0,255,0.3);
+    color: darkblue;
+}
+
+#skills {
+    padding-top: 60px;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+#sql {
+    width: 40px;
+    padding-left: 50px;
+}
+
+#HTML {
+    width: 40px;
+    padding-left: 70px;
+}
+
+#css3 {
+    width: 40px;
+    padding-left: 100px; 
+}
+
+.libraries {
+    display: flex;
+    flex-direction: column;
+    list-style: none;   
+}
+
+
+#react {
+    width: 40px;
+    padding-left: 50px;
+}
+
+#postgres {
+    width: 40px;
+    padding-left: 70px;
+}
+
+#node {
+    width: 40px;
+    padding-left: 100px; 
+}
+
+#bootstrap {
+    width: 40px;
+    padding-left: 120px; 
+}
+
+button{
+    float: right;
+    display: flex;
+    flex-direction: flex-end;
+}
+
+#sun {
+    z-index: 1;
+    position: fixed;
 }
