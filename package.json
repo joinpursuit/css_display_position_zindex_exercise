@@ -1,0 +1,19 @@
+{
+  "name": "css_display_position_zindex_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/css_display_position_zindex_exercise.git"
+  },
+  "author": "Ben Stone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/css_display_position_zindex_exercise/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/css_display_position_zindex_exercise#readme"
+}
