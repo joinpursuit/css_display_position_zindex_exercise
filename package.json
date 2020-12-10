@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joinpursuit/css_display_position_zindex_exercise/issues"
   },
-  "homepage": "https://github.com/joinpursuit/css_display_position_zindex_exercise#readme"
+  "homepage": "https://github.com/joinpursuit/css_display_position_zindex_exercise#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  }
 }
