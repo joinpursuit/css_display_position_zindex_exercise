@@ -33,6 +33,5 @@
 - Let's shed some light on the situation. Place this [image](http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png) in the upper-right hand corner of the screen. Give it `position: absolute` so it stays there, and make sure it has a `z-index` so that nothing ever covers it.
 
 ### Demo
-![styled pages demonstration](/assets/position_z-index_demo.gif)
 
-[Here](/assets/position_z-index.pdf) you will also find a pdf with a static image of what your page should look like. 
+![styled pages demonstration](/assets/updatedDemo.gif)
