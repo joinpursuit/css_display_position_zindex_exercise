@@ -1,15 +1,30 @@
+[![Pursuit Logo](https://avatars1.githubusercontent.com/u/5825944?s=200&v=4)](https://pursuit.org)
+
 # CSS Display, Position, and Z-Index
 
+## Getting Started 
+* Fork this repo
+* Clone the forked repository
+* `cd` to the directory where you cloned it
+* `npm install` to install dependencies
+* `npm test` to open the cypress testing window
 
-## 1. Add CSS to improve `index.html`
+> *Note*: Remember to `git add`, `git commit` and `git push` regularly
+
+## Submission Guidelines
+  * When finished, commit and push your work.
+  * Make a pull request on github.`
+  * Submit the link to your pull request on Canvas. 
+
 
 - Make a CSS file and import it into your HTML. Feel free to adjust your **HTML or CSS** as needed.
-- Frequently, we'd like to make our navigation bar (navbar) always visible so that we don't have to scroll all the way to the top to access the links. We can do this by using the `fixed` position value.
+- Make the `nav` stuck to the top by using the `fixed` position value
 - Observe and utilize the classes given to the HTML elements that constitute a 'project card'. Those are `project_card`, `project_description`, `project_image`.  
+
   * Make all the project images the same width and height keeping their 16:9 aspect ratio. 
   * Give each project a solid border of 2px
-  * Give the project description a [semi-transparent](https://www.w3schools.com/cssref/func_rgba.asp) background in a color of your liking;
-  * Change the text color to contrast nicely with your background color making your text pleasant to read. In my case this is White.
+  * Give the project description a [semi-transparent](https://www.w3schools.com/cssref/func_rgba.asp) background with a color hex of #0c1427;
+  * Change the text color to white.
   * Utilizing `position: absolute;` for `.project_description`, lay it over you project image. You will also need to give the parent element a `position` otherwise the `position: absolute;` given to the child will be relative to the `body`. Given that you have a semi-transparent background color this will give a nice effect.
 
     <details>
@@ -17,11 +32,10 @@
 
       Read about [`position: absolute;`](https://css-tricks.com/almanac/properties/p/position/)
     </details>
+
   * Once you have all the above you may have a bug. If you scroll down over your projects you may find that your navbar may be going under the project cards. The navbar should always be on top of everything. Fix this using the `z-index`; 
 
 - Using position, visually arrange the Skills section lists into steps. Each one in increments of 10% from the left side; A suggestion maybe to wrap your list and corresponding header in a `div` to make this easier.
-
-- Using either `flex` or `grid` for the `Contact Me` section make all the information appear in one line/row rather than a column. It will serve us as a footer.  Make sure your items have some space in between.
 
 - Make the 'Back to top' button appear always visible on the bottom right corner of the window no matter where the user has scrolled to.
 
@@ -31,5 +45,3 @@
 ![styled pages demonstration](/assets/position_z-index_demo.gif)
 
 [Here](/assets/position_z-index.pdf) you will also find a pdf with a static image of what your page should look like. 
-
-## 2. [Bonus] Style it better
