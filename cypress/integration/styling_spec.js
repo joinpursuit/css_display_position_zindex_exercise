@@ -54,7 +54,7 @@ describe('Styling', () => {
     it("Fix your nav bar to the top using the z-index", () => {
       cy
       .get('nav')
-      .should('have.css', 'z-index', '100')
+      .should('have.css', 'z-index', '1')
     })
 
     it("Make the 'Back to top' button appear always visible on the bottom right corner of the window no matter where the user has scrolled to.", () => {
@@ -64,15 +64,29 @@ describe('Styling', () => {
     })
 
     it("Give your sun image an id of #sun and keep it in the top right corner regardless of where you scroll. Use z-index to make sure nothing covers your sun image.", () => {
+      cy.get('#sun').then(($sun) => {
+        const zIndex = Number($sun.css('z-index'))
+        expect(zIndex).to.be.greaterThan(0)
+      })
+     
       cy
       .get('#sun')
       .should('have.css', 'position', 'absolute')
-      .and('have.css', 'z-index', '100')
-    })
 
-    // it("Use z-index to make sure nothing covers your sun image", () => {
-    //   cy
-    //   .get('#sun')
-    //   .should('have.css', 'z-index', '100')
-    // })
+    })  
+
+    it("Skills section should increment 10% in steps.", () => {
+      cy.get('#languages').then(($languages) => {
+        const languageLeft = Number($languages.css('left').slice(0, $languages.css('left').length - 2))
+        //$languages.css('left') returns the pixels, not the percentage so I used slice to remove the 'px's
+
+        cy.get('#libraries').then(($libraries) => {
+          const librariesLeft = Number($libraries.css('left').slice(0, $libraries.css('left').length - 2))
+
+          expect(librariesLeft).to.be.greaterThan(languageLeft)
+        })
+      })
+    })
+      
+
 })
