@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "./node_modules/.bin/cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/joinpursuit/css_display_position_zindex_exercise#readme",
   "devDependencies": {
-    "cypress": "^6.2.0"
+    "cypress": "^6.1.0"
   }
 }
