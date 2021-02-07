@@ -4,8 +4,9 @@ nav {
 }
 
 .project_image {
-    width: 300px;
-    height: 300px;
+    position: relative;
+    width: 200px;
+    height: 200px;
 }
 
 .project_description {
@@ -25,14 +26,17 @@ nav {
 
 #sun {
     position: absolute;
-    z-index: 1;
+    left: 80%;
+
+    z-index: 2;
 }
 
-#skills::after {
-    counter-increment: my-sec-counter;
-    content: 10% " counter(my-sec-counter) ". ";
+#languages {
+    position: relative;
+    left: 10%;
 }
 
-body {
-    counter-reset: my-sec-counter;
+#libraries {
+    position: relative;
+    left: 20%;
 }
