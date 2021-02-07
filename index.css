@@ -1,11 +1,30 @@
 nav{
     position: fixed;
+    z-index: 1;
 }
 
 .project_card{
     border: 2px solid black;
+    position: relative;
 }
 
 .project_description{
-    background-color:  rgba(12, 20, 39, 0.3)
+    background-color:  rgba(12, 20, 39, 0.3);
+    color:rgb(255,255,255);
+    position: absolute;
+}
+
+#myBtn {
+    position: fixed;
+}
+
+#sun{
+    position: absolute;
+    z-index: 1;
+}
+#languages{
+    left: 10px;
+}
+#libraries{
+    left: 20px;
 }
