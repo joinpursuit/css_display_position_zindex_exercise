@@ -4,9 +4,9 @@ nav{
 
 .project_card {
     border: 2px solid rgb(0, 0, 0);
-    /* border-width: 2px;
+    border-width: 2px;
     border-color: rbg(0, 0, 0);
-    border-style: solid; */
+    border-style: solid;
 }
 
 .project_description{
