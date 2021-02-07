@@ -41,10 +41,10 @@ nav {
 
 #languages {
     position: relative;
-    padding: 10%;
+    left: 10%;
 }
 
 #libraries {
     position: relative;
-    padding: 10%;
+    left: 20%;
 }
