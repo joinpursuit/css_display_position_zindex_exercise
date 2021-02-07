@@ -17,3 +17,26 @@ nav {
     color: white;
     position: absolute;
 }
+
+#languages {
+    position:relative;
+    left: 10%;
+}
+
+#libraries {
+    position: relative;
+    left: 20%;
+}
+
+#myBtn {
+    position: fixed;
+    right: 0% ;
+    bottom: 0%;
+    z-index: 1;
+}
+
+#sun {
+    position: absolute;
+    right: 0%;
+    z-index: 2;
+}
