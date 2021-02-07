@@ -4,8 +4,8 @@ nav{
 }
 .project_card, .project_description, .project_image{  
     border:2px solid black;
-    margin-right:50px; ;
-}
+    /* margin-right:50px; */
+} 
 .project_description{
     background-color: rgb(12, 20, 39, 0.3);
     color:white;
@@ -20,6 +20,7 @@ nav{
 
 .project_card{
     position: relative;
+    width: 60%;
     
 }
 
@@ -35,7 +36,7 @@ nav{
 }
 
 h2{
-    margin-top:10%
+    margin-top:10%;
 }
 
 #languages{
@@ -49,6 +50,9 @@ h2{
     
 }
 
-div.project_card > img.project_image{
-    width: 60%;
+img.project_image{
+    width: 100%;
+}
+div.project_description {
+    width: 100%;
 }
