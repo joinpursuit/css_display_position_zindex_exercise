@@ -1,6 +1,8 @@
 nav{
     position: fixed;
     z-index: 1;
+    top: 10px;
+    left: 20px;
 }
 
 .project_card{
@@ -34,16 +36,16 @@ nav{
 
 #skills{
     position: fixed;
-    left: 10%;
+    right: 10%;
     
 }
 
 #languages{
-    left: 20%;
+    right: 20%;
 }
 
 #libraries{
-    left: 30%;
+    right: 30%;
 }
 
 
