@@ -1,0 +1,11 @@
+nav {
+ position: fixed;
+}
+
+.project_card {
+    border: 2px solid, rgb(0,0,0);
+}
+
+.project_description {
+    background-color: rgb(12, 20, 39, 0.3);
+}
