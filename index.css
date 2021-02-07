@@ -1,0 +1,53 @@
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+
+
+.project_card{
+    border: solid black 2px;
+    position: relative;
+    top:10px;
+    left:20px;
+}
+
+.project_description{
+    background-color: rgba(12,20,39,.3) ;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#myBtn {
+    position: fixed;
+    top:10px;
+    left: 20px;
+
+}
+
+#sun{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+}
+
+#skills{
+    position: fixed;
+    left:10%;
+}
+
+
+#languages{
+    left: 20%;
+   
+}
+
+#libraries{
+    left: 30%;
+}
