@@ -8,16 +8,23 @@ nav{
     border-width: 2px;
     border-color: rgb(0, 0, 0);
     position: relative;
+    top: 10px;
+    left: 20px;
 }
 
 .project_description{
     background-color: rgba(12, 20, 39, 0.3);
     color: rgb(255, 255, 255);
     position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 #myBtn{
     position: fixed;
+    top: 10px;
+    left: 20px;
 }
 
 #sun{
