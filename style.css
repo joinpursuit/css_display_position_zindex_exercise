@@ -1,0 +1,53 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.project_card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+    margin: 10px;
+}
+.project_image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.project_description {
+    position: absolute;
+    background-color: rgba(12, 20, 39, 0.3);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    bottom: 0;
+}
+.project_card .project_description {
+    opacity: 1;
+}
+
+button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#sun {
+    right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+#languages {
+    position: relative;
+    left: 10%;
+}
+
+#libraries {
+    position: relative;
+    left: 20%;
+}
