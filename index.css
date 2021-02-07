@@ -1,0 +1,22 @@
+img{
+    width: 20px;
+    height: 20px ;
+}
+.project_card{
+    border-width: 2px;
+    border-style:  solid;
+    border-color:  black;
+    position: relative;
+}
+
+.project_description{
+    /* background: "semi-transparent"; */
+    background-color:rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
+    /* opacity: 0.3; */
+}
+nav{
+    position: fixed;
+    z-index: 1;
+}
