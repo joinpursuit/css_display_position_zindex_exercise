@@ -1,0 +1,43 @@
+nav{
+    position: fixed;
+    z-index: 1;
+    float: left;
+    top: 1px;
+    background-color:aquamarine;
+    font-size: 20px;
+}
+.project_card{
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 2px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.project_description{
+    background-color: rgba(12, 20, 39, 0.3);
+    color:rgb(249, 168, 168);
+    position: absolute;
+    margin-top: -90px;
+    padding: 1px;
+}
+ button{
+     position: fixed;
+ }
+
+#sun{
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     z-index: 1;
+ }
+ #skills{
+    position: relative;
+    left: 10%;
+    right: 20%;
+ }
+
+
+
+
+
