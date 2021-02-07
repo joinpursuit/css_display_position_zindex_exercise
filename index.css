@@ -36,16 +36,16 @@ nav{
 
 #skills{
     position: fixed;
-    right: 10%;
+    left: 10%;
     
 }
 
 #languages{
-    right: 20%;
+    left: 20%;
 }
 
 #libraries{
-    right: 30%;
+    left: 30%;
 }
 
 
