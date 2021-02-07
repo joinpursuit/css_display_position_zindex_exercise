@@ -1,0 +1,16 @@
+nav {
+    position: fixed
+}
+
+.project_image {
+    width: 200px;
+
+}
+.project_card {
+    border: 2px solid black;
+}
+
+.project_description {
+    background-color:rgba(12, 20, 39, 0.3); 
+
+}
