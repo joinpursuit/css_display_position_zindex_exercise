@@ -1,5 +1,6 @@
 nav {
     position: fixed;
+    z-index: 1;
 }
 
 .project_image {
@@ -8,9 +9,30 @@ nav {
 }
 
 .project_description {
-    background-color: rgba(12, 20, 39, 0.3)
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
 }
 
 .project_card {
     border: 2px solid black;
+    position: relative;
+}
+
+#myBtn {
+    position: fixed;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+}
+
+#skills::after {
+    counter-increment: my-sec-counter;
+    content: 10% " counter(my-sec-counter) ". ";
+}
+
+body {
+    counter-reset: my-sec-counter;
 }
