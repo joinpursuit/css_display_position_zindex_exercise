@@ -1,0 +1,104 @@
+nav {
+  background-color: rgb(80, 119, 80);
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 2000px;
+  height: 30px;
+}
+
+#deco1 {
+  position: relative;
+  text-decoration: none;
+  color: greenyellow;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#deco2 {
+    position: relative;
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+    left: 2%;
+  }
+
+  #deco3 {
+    position: relative;
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+    left: 4%;
+  }
+
+  #deco4 {
+    position: relative;  
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+    left: 6%;
+  }
+
+  #deco5 {
+    position: relative;  
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+    left: 8%;
+  }
+
+.project_card {
+  position: relative;
+  border: black solid 2px;
+  width: 0px;
+}
+
+.project_description {
+  z-index: 2;
+  top: 310px;
+  width: 500px;
+  position: absolute;
+  color: white;
+  background-color: rgb(12, 20, 39, 0.3);
+}
+
+.project_image {
+  height: 400px;
+  width: 500px;
+}
+
+#position {
+  position: relative;
+}
+
+#languages {
+  position: relative;
+  left: 10%;
+}
+
+#libraries {
+  position: relative;
+  left: 20%;
+}
+#myBtn {
+  position: fixed;
+}
+
+#sun {
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 30px;
+  height: 500px;
+  width: 500px;
+}
+
+h1 {
+    position: relative;
+    top: 15px;
+}
