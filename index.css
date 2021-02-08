@@ -1,0 +1,59 @@
+nav{
+    position: fixed;
+    z-index: 1;
+    float: left;
+    top: 1px;
+    background-color:aquamarine;
+    font-size: 20px;
+}
+
+.project_card{
+    /*border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 2px;*/
+    border: 2px solid rgb(0,0,0);
+    position: relative;
+}
+
+.project_description{
+    background-color: rgba(12, 20, 39, 0.3);
+    color:rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+ button#myBtn{
+     position: fixed;
+     bottom: 10px;
+     right: 20px;
+     visibility: visible;
+
+ }
+
+#sun{
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     z-index: 1;
+ }
+ #skills{
+    position: relative;;
+    left: 10%;
+    
+ }
+
+ #languages{
+     position: relative;
+     left: 5%;
+     
+ }
+ #libraries{
+     position: relative;
+     left: 30%;
+ }
+
+
+
+
+
