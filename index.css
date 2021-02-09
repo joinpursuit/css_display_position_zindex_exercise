@@ -13,7 +13,8 @@
     background-color:rgba(12, 20, 39, 0.3);
     color: white;
     position: absolute;
-    z-index: 1;
+    bottom: 0%;
+    width: auto;
 }
 nav{
     position: fixed;
