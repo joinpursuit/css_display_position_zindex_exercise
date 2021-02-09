@@ -1,0 +1,49 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    color: green;
+    background-color:palegreen;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    top: -10px;
+}
+.project_image {
+    width:350px;
+    height:350px;
+}
+.project_card {
+    border: solid 2px black;
+    position:relative;
+}
+.project_description {
+    color:white;
+    background-color: rgba(12, 20, 39, 0.3);
+    position:absolute;
+}
+#myBtn {
+    position:fixed;
+}
+
+#sun {
+    position:absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    z-index:1;
+    
+}
+
+#languages {
+    position:relative;
+    left: 10px;
+}
+
+#libraries {
+    position: relative;
+    left: 20px;
+}
+
+#sunspace{
+    position:relative;
+}
