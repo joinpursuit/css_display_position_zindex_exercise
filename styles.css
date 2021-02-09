@@ -1,4 +1,5 @@
 nav {
+    z-index: 1;
     position: fixed;
 }
 
@@ -10,19 +11,12 @@ nav {
 .project_card {
     border: 2px solid black;
     position: relative;
+    color: white;
 }
 
 .project_description {
     background-color: rgba(12, 20, 39, 0.3);
     position: absolute;
-}
-
-nav {
-    z-index: 1;
-}
-
-body {
-    color: white;
 }
 
 #myBtn {
