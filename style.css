@@ -37,14 +37,11 @@ nav a{
     position: fixed;
 }
 #languages{
-    position: relative;; 
-    left: 10px;
-    }
+ left: 10px;
+}
 #libraries{
-    position: relative;
-    left: 20px;
-    text-align: right;
-    }
+left: 20px;
+ }
     
 #sun{
     top:opx;
@@ -52,7 +49,7 @@ nav a{
     z-index: 1;
     position: absolute;
 }
-#laguages{
+/* #laguages{
 position: absolute; 
 left: 10px;
 }
@@ -60,7 +57,7 @@ left: 10px;
 position: absolute;
 left: 20px;
 text-align: left;
-}
+} */
 h1{
     position: block;
     text-align:justify;
@@ -69,5 +66,9 @@ h1{
 }
 #contact{
     position: relative;
-    text-align: right;
+    text-align: left;
+}
+p{
+    font-size:20px;
+    color: burlywood;
 }
