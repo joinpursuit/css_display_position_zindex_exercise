@@ -22,7 +22,9 @@ nav a {
 .project_card{ 
     position: relative;
     border: solid 2px black;
-    
+    width: 350px;
+    height: 350px;
+
 
 }
 
@@ -31,7 +33,6 @@ nav a {
     background-color: rgba(12, 20, 39, 0.3) ;
     position: absolute ;
     top: 20px;
-   
 }
 
 #languages{ 
