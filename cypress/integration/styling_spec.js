@@ -19,7 +19,7 @@ describe('Styling', () => {
       
     })
 
-    it("Give each project a solid black border of 2px", () => {
+    it.skip("Give each project a solid black border of 2px", () => {
       cy
       .get('.project_card')
       .should('have.css', 'border-style', 'solid')
