@@ -3,6 +3,9 @@
 }
 
 nav {
+    background-color: rgb(100, 100, 7);
+    width: 100%;
+    padding: 10px;
     position: fixed;
     z-index: 1;
 }
@@ -37,6 +40,8 @@ h1 {
 
 .project_description {
     position: absolute;
+    width: 500px;
+    height: 76px;
     background-color: rgba(12, 20, 39, 0.3);
     color: white;
 
@@ -49,15 +54,23 @@ h1 {
     z-index: 1;
 }
 
+#sun-two {
+    width: 150px;
+    margin-left: 50%;
+    z-index: ;
+    float: right;
+}
+
 #myBtn {
     position: fixed;
-    margin-bottom: 20px;
+    margin-left: 850px;
+    bottom: 20px;
 }
 
 #languages {
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 #libraries {
-    padding-left: 30%;
+    padding-left: 20%;
 }
