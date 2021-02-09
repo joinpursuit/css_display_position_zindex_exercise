@@ -1,0 +1,47 @@
+nav {
+    display: inline;
+    height: 50px;
+    width: au;
+    background-color: rgba(108, 136, 53, 0.9);
+    position: fixed;
+    z-index: 1;
+}
+
+.project_image {
+    height: auto;
+    width: auto;
+    
+}
+
+.project_card {
+    border: 2px solid black;
+    position: relative;
+}
+
+.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
+}
+
+button {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+#skills {
+    position: static;
+}
+#languages {
+    left: 10%;
+}
+
+#libraries {
+    left: 20%;
+}
