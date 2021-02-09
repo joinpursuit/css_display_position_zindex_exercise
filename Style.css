@@ -1,0 +1,67 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    color: thistle;
+    background-color: slateblue;
+    width: 100%;
+    font-family: Impact;
+    font-size: 20px;    
+    top: 0px
+}
+
+nav a {
+    padding-right: 30px;
+}
+
+.project_image {
+    width: 350px;
+    height: 350px;
+   
+}
+
+.project_card{ 
+    position: relative;
+    border: solid 2px black;
+    width: 350px;
+    height: 350px;
+
+
+}
+
+.project_description{
+    color:white ;
+    background-color: rgba(12, 20, 39, 0.3) ;
+    position: absolute ;
+    top: 20px;
+}
+
+#languages{ 
+  position: relative;
+  left: 10px;
+}
+
+#libraries{
+    position: relative;
+    left: 20px;
+}
+
+#myBtn{
+    position: fixed;
+}
+
+#sunspace{
+    position: relative;
+}
+
+#sun{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width:150px;
+    z-index: 1;
+}
+
+html {
+    background-color: rgb(210, 169, 175);
+
+}
