@@ -1,0 +1,75 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    background-color: darkolivegreen;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    top: 0;
+}
+
+nav a {
+    color: limegreen;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#about {
+    display: block;
+}
+
+.project_card, .project_description, .project_image {
+    width: 400px;
+    height: 300px;
+    border: solid black 2px;
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    display: block;
+}
+
+.project_card {
+    position: relative;
+}
+
+.project_description {
+    position: absolute;
+}
+
+#snowMan {
+    display: block;
+    position: relative;
+}
+
+#myBtn {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+#sun {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+}
+
+#skills {
+    border: 10px;
+    display: block;
+    position: relative;
+}
+
+#languages {
+    position: relative;
+    left: 50px;
+    display: block;
+}
+
+#libraries {
+    position: relative;
+    left: 100px;
+}
+
+#contact {
+    display: block;
+}
