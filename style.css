@@ -1,0 +1,79 @@
+nav {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  background-color: olive;
+  width: 100%;
+  margin: 0%;
+  padding: 10px;
+}
+
+nav a {
+  font-weight: bold;
+  color: greenyellow;
+  padding-right: 10px;
+}
+
+nav a:hover{
+    border-radius: 5px;
+    background-color: olivedrab;
+    color: palegreen;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#about {
+  margin-top: 50px;
+}
+
+img {
+  width: 420px;
+}
+
+.project_card {
+    border: 2px solid black;
+    position: relative;
+    width: 420px;
+    margin-bottom: 20px;
+}
+
+.project_description {
+  width: 400px;
+  background-color: rgba(12, 20, 39, 0.3);
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 20px;
+  
+}
+
+button {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+#sun {
+  width: 100px;
+  height: 100px;
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
+#languages {
+    position: relative;
+  left: 100px;
+}
+
+#libraries {
+    position: relative;
+  left: 200px;
+}
