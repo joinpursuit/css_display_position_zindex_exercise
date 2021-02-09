@@ -1,0 +1,62 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    display: block;
+    background-color: rosybrown;
+}
+
+body {
+    max-width: auto;
+}
+
+h1{
+    color: pink;
+    font-size: 100px;
+}
+
+h2{
+    display: block;
+    color: pink;
+    position:static;
+}
+
+.project_card {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    position: relative;
+    width: 40%;
+    margin-bottom: 100px;
+}
+
+.project_image {
+    max-width: 100%;
+}
+
+.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    z-index:2;
+    padding: auto;
+}
+
+#myBtn {
+    position: fixed;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+    right: 5px;
+}
+
+#languages {
+    position: relative;
+    left: 10%;
+}
+
+#libraries {
+    position: relative;
+    left: 20%;
+}
