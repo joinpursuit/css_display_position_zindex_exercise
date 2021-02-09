@@ -1,0 +1,40 @@
+nav {
+    position: fixed;
+  }
+  
+  div.project_card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+  }
+  
+  div.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  div.project_card {
+    position: relative;
+  }
+  nav {
+    z-index: 1;
+  }
+  button {
+    position: fixed;
+  }
+  #sun {
+    position: absolute;
+    z-index: 1;
+  }
+  div.skills {
+    position: absolute;
+  }
+  #languages {
+    position: relative;
+    left: 10%;
+  }
+  #libraries {
+    position: relative;
+    left: 20%;
+  }
+  
