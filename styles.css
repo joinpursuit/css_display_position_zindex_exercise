@@ -1,0 +1,39 @@
+nav {
+    z-index: 1;
+    position: fixed;
+}
+
+.project_image {
+    width: fit-content;
+    height: fit-content;
+}
+
+.project_card {
+    border: 2px solid black;
+    position: relative;
+    color: white;
+}
+
+.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    position: absolute;
+}
+
+#myBtn {
+    position: fixed
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+}
+
+#languages {
+    position: relative;
+    left: 10%;
+}
+
+#libraries {
+    position: relative;
+    left: 20%;
+}
