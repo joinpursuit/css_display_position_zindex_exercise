@@ -1,0 +1,45 @@
+nav {
+    z-index: 1;
+    position: fixed;
+    background-color: forestgreen;
+    font-size: 17px;
+    font-family: Geneva;
+    font-weight: bold;
+    width: 100%;
+    height: 20px;
+    top: 0;
+}
+
+.project_card {
+    border: 2px solid black
+    
+}
+
+.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
+}
+
+.project_card {
+    position: relative;
+}
+
+#myBtn {
+    position: fixed;
+}
+
+#sun {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#languages {
+    left: 10%
+}
+
+#libraries {
+    left: 20%
+}
