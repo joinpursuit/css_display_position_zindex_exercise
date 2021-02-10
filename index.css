@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(100, 100, 7);
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+h1 {
+    padding: 50px;
+}
+
+.header-bar a {
+    position: relative;
+    word-spacing: 4px;
+    background-color:rgb(100, 100, 7);
+    margin: 0;
+    padding: 10px;
+    color: lightgreen;
+    text-decoration: none;
+}
+
+.project_card img {
+    /* margin: 10px; */
+    width: 500px;
+}
+
+.project_card {
+    width: 500px;
+    height: 435px;
+    position: relative;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+}
+
+.project_description {
+    position: absolute;
+    width: 500px;
+    height: 76px;
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+}
+
+
+
+#sun {
+    position: absolute;
+    z-index: 1;
+}
+
+#sun-two {
+    width: 150px;
+    margin-left: 50%;
+    z-index: 1;
+    float: right;
+}
+
+#myBtn {
+    position: fixed;
+    margin-left: 850px;
+    bottom: 20px;
+}
+
+#languages {
+    position: relative;
+    left: 10%;
+}
+
+#libraries {
+    position: relative;
+    left: 20%;
+}
