@@ -1,0 +1,52 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background-color: olivedrab;
+    width: 100%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    font-size: 20px;
+    font-family:'Courier New';
+    font-weight: bolder;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+div.project_card {
+    border: black solid 2px;
+    position: relative;
+}
+
+div.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
+}
+
+button#myBtn {
+    position: fixed;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+}
+
+div#languages {
+    position: relative;
+    left: 10%;
+}
+
+div#libraries {
+    position: relative;
+    left: 20%;
+}
+
+
