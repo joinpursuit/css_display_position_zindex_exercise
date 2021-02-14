@@ -1,0 +1,40 @@
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+
+.project_card {
+    border-style: solid;
+    position: relative;
+    border-width: 2px;
+}
+.project_image {
+    height: 200px;
+    width: 200px;
+}
+.project_description {
+    background-color: rgb(12, 20, 39, 0.3);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+}
+ button {
+     position: fixed;
+ }
+
+ #sun {
+     z-index: 99999;
+     right: 20px;
+     position: absolute;
+ }
+
+ #languages {
+     position: relative;
+     left: 5%;
+ }
+
+ #libraries {
+     position: relative;
+     left: 30%;
+ }
