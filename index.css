@@ -1,0 +1,67 @@
+nav {
+    position: fixed;
+    z-index: 1;
+    display: block;
+    background-color: rgba(47, 84, 8, 0.95);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+nav a {
+    margin: 15px 15px 15px 15px;
+    color: rgb(157, 203, 114)
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:visited {
+    color: rgb(157, 203, 114)
+}
+
+.project_card {
+    border: 2px solid black;
+    position: relative;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    width: 750px;
+}
+.project_image {
+    width: inherit;
+}
+.project_description {
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: inherit;
+    text-align: center;
+}
+#skills {
+    position: relative;
+}
+
+#languages {
+    margin-left: 150px;
+}
+
+#libraries {
+    margin-left: 300px;
+}
+
+button#myBtn {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+#sun {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
