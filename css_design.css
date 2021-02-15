@@ -1,0 +1,23 @@
+nav{
+    position: fixed;
+}
+
+.project_card{
+    width: 500px;
+    height: 500px;
+    border-style: solid 2px ;
+    position: relative;
+}
+.project_image{
+    width: 500px;
+    height: 500px;
+    border-style: solid 2px;
+}
+.project_description{
+    width: 500px;
+    height: 500px;
+    border-style: solid 2px;
+    background-color: #0c1427;
+    color: white;
+    position: absolute;
+}
