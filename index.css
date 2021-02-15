@@ -1,7 +1,7 @@
 nav {
     position: fixed;
     z-index: 1;
-    background-color: olivedrab;
+    background-color: black;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -13,7 +13,7 @@ nav a:link {
     margin-top: 20px;
     margin-right: 35px;
     text-decoration: none;
-    color: yellowgreen;
+    color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -23,13 +23,13 @@ nav a:hover {
 }
 
 body {
-    background-image: radial-gradient(circle, rgb(0, 255, 17), rgb(86, 212, 232), rgb(0, 255, 17));
+    background-image: radial-gradient(circle, white, lightblue, white);
 }
 
 h1 {
     margin-top: 40px;
     font-family: cursive;
-    color: red;
+    color: blue;
 }
 
 .project_card {
@@ -90,11 +90,11 @@ h1 {
 #libraries {
     position: relative;
     left: 20%;
-    color: rgb(215, 3, 38);
+    color: blue;
 }
 
 h2 {
     display: block;
-    color: rgb(215, 3, 38);
+    color: blue;
     position: static;
 }
