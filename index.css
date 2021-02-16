@@ -1,0 +1,36 @@
+nav {
+    position: fixed;
+    z-index: 1;
+}
+
+.project_image{
+    height: auto;
+    width: auto;
+}
+
+.project_card{
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 2px;
+    position: relative;
+}
+
+.project_description{
+    background-color: rgba(12, 20, 39, 0.3);
+    color: white;
+    position: absolute;
+}
+
+button{
+    position: fixed;
+
+}
+
+#sun {
+    z-index: 1;
+    position: absolute;
+
+}
+
+#languages {
+}
