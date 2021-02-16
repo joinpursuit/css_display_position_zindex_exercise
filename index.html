@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <img src="http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png" id="sun">
@@ -14,77 +14,72 @@
         <a href="#contact"> Contact </a>
         <a href="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto/gigs/109481925/original/9445cfaef2c93a02bbce3af7d0f16d065c23d254/update-your-resume-asap.jpg"> Resume </a>
     </nav>
+<main>
 
-    <div id="about">
-      <h1>Your Name Here</h1>
-        <img src="https://image.flaticon.com/icons/png/512/97/97895.png" alt="" >
-        <p>This is a bunch of information about myself. I'm from here and there and discovered my
-        love of programming when this happend. When I'm not working I'm busy doing this and that.
-      </p>
-   </div>
+  <div id="about">
+    <h1>Your Name Here</h1>
+      <img src="https://image.flaticon.com/icons/png/512/97/97895.png" alt="" >
+      <p>This is a bunch of information about myself. I'm from here and there and discovered my
+      love of programming when this happend. When I'm not working I'm busy doing this and that.
+    </p>
+ </div>
 
-    <div id="projects">
-      <h2> Projects </h2>
+  <div id="projects">
+    <h2> Projects </h2>
+  </div>
+
+
+  <div class="project_card">
+    <img class="project_image" src="https://cdn1.sbnation.com/assets/4107701/infocom.gif">
+    <div class="project_description">
+      <h3>CLI Text-based Adventure</h3>
+      <p><a href="https://github.com/joinpursuit/FSW -Text-Based-Adventure">Repo</a> | <a href="https://www.google.com">Live</a></p>
     </div>
+  </div>
 
-
-    <div class="project_card">
-      <img class="project_image" src="https://cdn1.sbnation.com/assets/4107701/infocom.gif">
-      <div class="project_description">
-        <h3>CLI Text-based Adventure</h3>
-        <p><a href="https://github.com/joinpursuit/FSW-Text-Based-Adventure">Repo</a> | <a href="https://www.google.com">Live</a></p>
-      </div>
+  <div class="project_card">
+    <img class="project_image" src="https://raw.githubusercontent.com/joinpursuit/FSW-CLI-Snowman/master/snowman.gif">
+    <div class="project_description">
+      <h3>CLI Snowman Game</h3>
+      <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Snowman">Repo</a> | <a href="https://google.com">Live</a></p>
     </div>
-
-    <div class="project_card">
-      <img class="project_image" src="https://raw.githubusercontent.com/joinpursuit/FSW-CLI-Snowman/master/snowman.gif">
-      <div class="project_description">
-        <h3>CLI Snowman Game</h3>
-        <p><a href="https://github.com/joinpursuit/Pursuit-Core-Web-Snowman">Repo</a> | <a href="https://google.com">Live</a></p>
-      </div>
-    </div>
-    
-    <h2>My Skills!</h2>
-    <div id="skills">
-      <div id='languages'>
-        <h3>Languages</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>SQL</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-        </ul>  
-      </div>
-      <div id='libraries'>
-        <h3>Libraries</h3>
-        <ol>
-          <li>React</li>
-          <li>PostgreSQL</li>
-          <li>Node</li>
-          <li>Bootstrap</li>
-        </ol>  
-      </div>
-    </div>
-
-    <div id="contact">
-      <h2>Contact Me</h2>
+  </div>
+  
+  <div class='skill class'>
+  <h2>My Skills!</h2>
+  <div id="skills">
+    <div id='languages'>
+      <h3>Languages</h3>
       <ul>
-        <li> Email me at: <a href="mailto:yourname@pursuit.org" >yourname@pursuit.org</a></li>
-        <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
-        <li> <a href="https://github.com">github link</a> </li>
-        <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
-        <li> <a href="https://angellist.com">Angellist link</a> </li>
-      </ul>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>  
     </div>
-    <button id="myBtn">Back To Top</button>
-    <script>
-      //Get the button:
-    var myButton = document.getElementById("myBtn");
-    // When the user clicks on the button, scroll to the top of the document
-    myButton.addEventListener('click', () => {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    })
-    </script>
+    <div id='libraries'>
+      <h3>Libraries</h3>
+      <ol>
+        <li>React</li>
+        <li>PostgreSQL</li>
+        <li>Node</li>
+        <li>Bootstrap</li>
+      </ol>  
+    </div>
+  </div></div>
+
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <ul>
+      <li> Email me at: <a href="mailto:yourname@pursuit.org" >yourname@pursuit.org</a></li>
+      <li> Phone: <a href="tel:+19171234567">+1(917)123-4567</a></li>
+      <li> <a href="https://github.com">github link</a> </li>
+      <li> <a href="https://linkedin.com">LinkedIn link</a> </li>
+      <li> <a href="https://angellist.com">Angellist link</a> </li>
+    </ul>
+  </div>
+  <button id="myBtn">Back To Top</button>
+
+</main>    
   </body>
 </html>
