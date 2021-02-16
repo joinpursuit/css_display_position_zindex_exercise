@@ -1,23 +1,48 @@
 nav{
     position: fixed;
+    top: auto;
+    z-index: 1;
 }
 
 .project_card{
-    width: 500px;
-    height: 500px;
-    border-style: solid 2px ;
+    border: solid 2px;
     position: relative;
+    position: relative;
+    
 }
-.project_image{
-    width: 500px;
-    height: 500px;
-    border-style: solid 2px;
-}
+
 .project_description{
-    width: 500px;
-    height: 500px;
-    border-style: solid 2px;
-    background-color: #0c1427;
-    color: white;
-    position: absolute;
+background-color:rgba(12,20,39,0.3);
+color: white;
+position: absolute;
+
 }
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+#languages {
+    position: relative;
+    left: 10%;  
+
+}
+#libraries {
+    position: relative;
+    left: 20%;
+
+}
+#myBtn {
+    position: fixed;
+    bottom: 1%;
+    left: 90%;
+
+}
+
+#sun {
+    position: absolute;
+    left: 95%;
+    z-index: 1000;
+}
+
