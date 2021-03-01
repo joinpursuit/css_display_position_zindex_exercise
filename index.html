@@ -76,14 +76,12 @@
         <li> <a href="https://angellist.com">Angellist link</a> </li>
       </ul>
     </div>
-    <button id="myBtn">Back To Top</button>
+    <button id="topButton">Back To Top</button>
     <script>
-      //Get the button:
-    var myButton = document.getElementById("myBtn");
-    // When the user clicks on the button, scroll to the top of the document
-    myButton.addEventListener('click', () => {
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    var topButton = document.getElementById("topButton")
+
+    topButton.addEventListener('click', () => {
+      document.documentElement.scrollTop = 0
     })
     </script>
   </body>
