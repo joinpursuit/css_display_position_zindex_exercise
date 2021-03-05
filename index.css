@@ -1,0 +1,33 @@
+
+nav {
+    z-index: 1;
+    position: fixed;
+}
+
+.project_image {
+    width: 350px;
+    height: 400px;
+}
+
+.project_card {
+    border: 2px solid black;
+    position: relative;
+}
+
+.project_description {
+    background-color: rgb(12,20,39,.3);
+    color: white;
+    position: absolute;
+
+}
+
+#myBtn {
+    position: fixed;
+    background-color: gray;
+}
+
+#sun {
+    position: absolute;
+    z-index: 1;
+    
+}

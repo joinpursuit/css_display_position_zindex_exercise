@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>CSS Intro</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <img src="http://www.sunnysidedrama.com/index/Welcome_files/Playtime_Sun-4.png" id="sun">
-    <nav >
+    <nav>
         <a href="#about"> About </a>
         <a href="#projects"> Projects </a>
         <a href="#skills"> Skills </a>
@@ -16,7 +16,7 @@
     </nav>
 
     <div id="about">
-      <h1>Your Name Here</h1>
+      <h1>David Mendoza</h1>
         <img src="https://image.flaticon.com/icons/png/512/97/97895.png" alt="" >
         <p>This is a bunch of information about myself. I'm from here and there and discovered my
         love of programming when this happend. When I'm not working I'm busy doing this and that.
@@ -65,6 +65,10 @@
         </ol>  
       </div>
     </div>
+    <script>
+      let libraries = document.getElementById('#libraries');
+      let languages = document.getElementById('languages');
+    </script>
 
     <div id="contact">
       <h2>Contact Me</h2>
@@ -79,7 +83,7 @@
     <button id="myBtn">Back To Top</button>
     <script>
       //Get the button:
-    var myButton = document.getElementById("myBtn");
+    let myButton = document.getElementById("myBtn");
     // When the user clicks on the button, scroll to the top of the document
     myButton.addEventListener('click', () => {
       document.body.scrollTop = 0; // For Safari
