@@ -35,11 +35,6 @@ nav a {
     position: absolute;
 }
 
-#snowMan {
-    display: block;
-    position: relative;
-}
-
 #myBtn {
     position: fixed;
     right: 5px;
